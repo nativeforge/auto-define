@@ -8,11 +8,13 @@
   "exports": {
     ".": {
       "import": "./index.js",
+      "require": "./index.cjs",
       "types": "./index.d.ts"
     }
   },
   "files": [
     "index.js",
+    "index.cjs",
     "index.d.ts",
     "README.md",
     "LICENSE",
@@ -24,7 +26,11 @@
     "auto-import",
     "auto-define",
     "lazy-loading",
-    "zero-config"
+    "zero-config",
+    "es modules",
+    "HTML",
+    "DOM",
+    "connectedCallback"
   ],
   "license": "MIT",
   "author": "ynck-chrl",
